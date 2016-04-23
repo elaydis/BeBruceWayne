@@ -23,14 +23,6 @@ public class MenuFragment extends Fragment {
     public MenuFragment() {
     }
 
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -41,6 +33,13 @@ public class MenuFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onDestroyView() {
+        ButterKnife.unbind(this);
+
+        super.onDestroyView();
+    }
+
     @OnClick(R.id.button_start_game)
     void onStartGameClicked() {
         //TODO start game!
@@ -48,7 +47,12 @@ public class MenuFragment extends Fragment {
 
     @OnClick(R.id.button_credits)
     void onCreditsClicked() {
-        //TODO show credits!
+        getActivity()
+                .getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.container, new CreditsFragment())
+                .addToBackStack(MenuFragment.class.getSimpleName())
+                .commit();
     }
 
 }

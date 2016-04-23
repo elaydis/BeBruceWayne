@@ -9,4 +9,9 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="start_game">Start Game</string>
     <string name="credits">Credits</string>
+    <string name="introduction_text">You are Bruce Wayne. It is vital that nobody suspects you to be a good enough person to actually be Batman.</string>
+    <string name="name_matthias">Matthias Zarzecki</string>
+    <string name="name_till">Till Balbach</string>
+    <string name="name_nadine">Nadine Kost</string>
+    <string name="back">Back</string>
 </resources>
