@@ -42,7 +42,12 @@ public class MenuFragment extends Fragment {
 
     @OnClick(R.id.button_start_game)
     void onStartGameClicked() {
-        //TODO start game!
+        getActivity()
+                .getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.container, new IntroFragment())
+                .addToBackStack(MenuFragment.class.getSimpleName())
+                .commit();
     }
 
     @OnClick(R.id.button_credits)

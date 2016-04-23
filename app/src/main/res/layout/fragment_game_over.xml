@@ -15,40 +15,12 @@
         android:layout_height="wrap_content"
         android:textSize="45sp"
         android:textColor="@android:color/white"
-        android:text="@string/credits"/>
+        android:text="Game Over!"/>
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="35sp"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="10dp"
-        android:text="@string/name_matthias"/>
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="35sp"
-        android:layout_marginTop="5dp"
-        android:text="@string/name_till"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="35sp"
-        android:layout_marginTop="5dp"
-        android:text="@string/name_nadine"/>
 
     <Button
         android:id="@+id/button_back"
         android:text="@string/back"
-        android:textColor="@android:color/white"
         android:textSize="30sp"
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
