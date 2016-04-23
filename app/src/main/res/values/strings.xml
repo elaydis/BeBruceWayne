@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">BeBruceWayne</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
@@ -14,6 +11,81 @@
     <string name="name_till">Till Balbach</string>
     <string name="name_nadine">Nadine Kost</string>
     <string name="back">Back</string>
+    <string name="game_over">Game Over!</string>
+
+
+
+    <!-- CHARITY EVENT -->
     <string name="text_charity_scene_1">Harvey Dent organised a charity gala to support victims of domestic violence. All the big names of Gotham are here! People are currently mingling in the main room before the event actually starts.</string>
+    <string name="charity_scene_1_option_1">Play a remix you made from slapping sounds and crying children.</string>
+    <string name="charity_scene_1_option_2">Champagne shower for everyone!</string>
+    <string name="charity_scene_1_option_3">You take part in a few meaningless conversations</string>
+    <string name="charity_scene_1_option_4">Hello! I am Bat-Wayne. I mean Bruce-Man. FUCK</string>
+
     <string name="text_charity_scene_2">Harvey holds an opening speech. He talks about the struggle many children are going through every day, and how he experienced the pain himself. It is very moving; you here some rich people dry their tears with $100 bills..</string>
+    <string name="charity_scene_2_option_1">Yell: "Boo fucking hoo! Get over it princess!"</string>
+    <string name="charity_scene_2_option_2">Crack jokes about how Dent seems like he was the kind of child that you just have to slap every now and then to the people in your vicinity.</string>
+    <string name="charity_scene_2_option_3">"That speech was a bit lame, but not bat.. bad. I mean bad."</string>
+    <string name="charity_scene_2_option_4">Applaud and cheer as the speech comes to an end.</string>
+
+    <string name="text_charity_scene_3">The buffet is now open! People discuss boring topics like child abuse and brag about how much they work to support our youth.</string>
+    <string name="charity_scene_3_option_1">Did someone say foodfight?!</string>
+    <string name="charity_scene_3_option_2">"Whoever cooked this deserves a whooping.."</string>
+    <string name="charity_scene_3_option_3">Steal roastbeef from your neighbours plate.</string>
+    <string name="charity_scene_3_option_4">You cant find a knife, so you just casually use a Batarang for eating.</string>
+
+    <string name="text_charity_scene_4">The main event - A charity auction - just started. People bid high sums on paintings and toys kids from a shelter made.</string>
+    <string name="charity_scene_4_option_1">Scribble a dick on a childs painting.</string>
+    <string name="charity_scene_4_option_2">Constantly mock the childrens names as they present their work.</string>
+    <string name="charity_scene_4_option_3">Bid on a slightly unsettling painting because it reminds you of a cool bat.</string>
+    <string name="charity_scene_4_option_4">Give a kid very in-depth feedback on their colour choices in a painting of Batman.</string>
+
+    <string name="text_charity_scene_5">The auction was a great success, Harvey thanks everybody in a very emotional speech. Some people stick around for a few drinks, others begin to leave.</string>
+    <string name="charity_scene_5_option_1">Get hammered on free drinks and smack random ladies butts while they pass by the bar.</string>
+    <string name="charity_scene_5_option_2">Drunkenly hit on Harveys wife Gilda.</string>
+    <string name="charity_scene_5_option_3">Order a Bat-Martini. You mean Martini.</string>
+    <string name="charity_scene_5_option_4">Call in your Batmobile and disappear with screeching tires.</string>
+
+
+    <!-- CHRISTMAS EVENT -->
+    <string name="text_christmas_scene_1">Time to get going so you show up for the lighting ceremony of the Grand Gotham Crhristmas Tree on time!</string>
+    <string name="christmas_scene_1_option_1">You're a bit late, a bit drunk and bring your Laborghini to a screetching halt, covering everybody nearby in grey snow mush.</string>
+    <string name="christmas_scene_1_option_2">You arrive a little early in a fancy sports car and steal the Mayors parking spot.</string>
+    <string name="christmas_scene_1_option_3">You make it just in time after beating up a group of thugs in a dark side alley. Wait, are you still wearing the cape?!</string>
+    <string name="christmas_scene_1_option_4">"Alfred! Prepare the Batmobile!"</string>
+
+
+    <string name="text_christmas_scene_2">The Mayor makes a boring speech about the proud history of Gotham or something</string>
+    <string name="christmas_scene_2_option_1">You ask your supermodel girlfriends what party they want to go to next</string>
+    <string name="christmas_scene_2_option_2">You ask loudly for more champagne to make the time pass more quickly</string>
+    <string name="christmas_scene_2_option_3">Join in with everybody cheering happily</string>
+    <string name="christmas_scene_2_option_4">Remind everybody of several instances when Batman saved the day. What a badass!</string>
+
+
+    <string name="text_christmas_scene_3">Supermodel Name McLastname gets called to the stage to push the switch to light the tree</string>
+    <string name="christmas_scene_3_option_1">"She could totally flip my switch!" ( ͡° ͜ʖ ͡°) </string>
+    <string name="christmas_scene_3_option_2">Laugh out loudly when the light only flickers a bit due to an outage.</string>
+    <string name="christmas_scene_3_option_3">Cue slow clap.</string>
+    <string name="christmas_scene_3_option_4">The tree doesn't light up. Through your detective abilities you quickly find a broken cable and fix it!</string>
+
+
+    <string name="text_christmas_scene_4">You notice the tree leaning noticably to the left. What should you do?!</string>
+    <string name="christmas_scene_4_option_1">Huff and puff, trying to blow it over.</string>
+    <string name="christmas_scene_4_option_2">Impassively flick some small snowballs at it.</string>
+    <string name="christmas_scene_4_option_3">Alert a security guard so they can fix it before the tree falls over!</string>
+    <string name="christmas_scene_4_option_4">You pull out your bat-claw and straighten it using your almost superhuman muscles</string>
+
+
+    <string name="text_christmas_scene_5">A group of thugs in clownmasks appear on a nearby roof and start wreaking havoc!</string>
+    <string name="christmas_scene_5_option_1">Take cover behind the model!</string>
+    <string name="christmas_scene_5_option_2">Take cover behind the tree!</string>
+    <string name="christmas_scene_5_option_3">Grab a few confused people around you and drag them to cover!</string>
+    <string name="christmas_scene_5_option_4">Run away just seconds before Batman arrives to save the day once again!</string>
+
+
+    <!-- ENDINGS -->
+    <string name="text_good_ending">Congratulations, you are an absolute asshat! But at least your secret is safe!</string>
+    <string name="text_neutral_ending">You managed to keep your secret identity safe!</string>
+    <string name="text_bad_ending">Breaking News: Billionare Bruce Wayne secretly Batman?!</string>
+
 </resources>
