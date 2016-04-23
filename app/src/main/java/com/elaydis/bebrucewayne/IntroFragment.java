@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.elaydis.bebrucewayne.charity_gala.CharityGalaFirstSceneFragment;
+import com.elaydis.bebrucewayne.christmas_tree_lighting.ChristmasTreeFirstSceneFragment;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -34,11 +35,21 @@ public class IntroFragment extends Fragment {
     }
 
     @OnClick(R.id.button_scenario_1)
-    void backButtonClicked() {
+    void scenarioOneClicked() {
         getActivity()
                 .getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.container, new CharityGalaFirstSceneFragment())
+                .addToBackStack(IntroFragment.class.getSimpleName())
+                .commit();
+    }
+
+    @OnClick(R.id.button_scenario_2)
+    void scenarioTwoClicked() {
+        getActivity()
+                .getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.container, new ChristmasTreeFirstSceneFragment())
                 .addToBackStack(IntroFragment.class.getSimpleName())
                 .commit();
     }
