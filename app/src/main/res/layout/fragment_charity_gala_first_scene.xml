@@ -34,10 +34,10 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@color/black_overlay"
-            android:textColor="@android:color/white"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Play a remix you made from slapping sounds and crying children."/>
+            android:text="Play a remix you made from slapping sounds and crying children."
+            android:textColor="@android:color/white"/>
 
         <TextView
             android:id="@+id/button_option_2"
@@ -46,10 +46,10 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@color/black_overlay"
-            android:textColor="@android:color/white"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Champagne shower for everyone!"/>
+            android:text="Champagne shower for everyone!"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -64,10 +64,10 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@color/black_overlay"
-            android:textColor="@android:color/white"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="That speech was a bit lame, but not bat.. bad. I mean bad."/>
+            android:text="That speech was a bit lame, but not bat.. bad. I mean bad."
+            android:textColor="@android:color/white"/>
 
         <TextView
             android:id="@+id/button_option_4"
@@ -76,9 +76,9 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@color/black_overlay"
-            android:textColor="@android:color/white"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="..??"/>
+            android:text="..??"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 </LinearLayout>

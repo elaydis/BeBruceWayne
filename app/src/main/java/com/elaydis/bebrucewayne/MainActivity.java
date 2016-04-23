@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         suspicionLevel += raiseBy;
     }
 
-    public void resetSuspicionLevel(){
+    public void resetSuspicionLevel() {
         suspicionLevel = 0;
     }
 

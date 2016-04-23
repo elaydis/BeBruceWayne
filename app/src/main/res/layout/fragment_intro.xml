@@ -14,11 +14,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:background="@color/black_overlay"
-        android:textColor="@android:color/white"
         android:fontFamily="serif"
+        android:padding="10dp"
         android:text="@string/introduction_text"
+        android:textColor="@android:color/white"
         android:textSize="22sp"/>
 
     <LinearLayout
@@ -34,11 +34,11 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@color/black_overlay"
-            android:textColor="@android:color/white"
             android:fontFamily="serif"
             android:gravity="center"
             android:padding="10dp"
             android:text="Harvey Dent's Charity Gala"
+            android:textColor="@android:color/white"
             android:textSize="30sp"/>
 
         <TextView
@@ -50,10 +50,10 @@
             android:layout_weight="1"
             android:background="@color/black_overlay"
             android:fontFamily="serif"
-            android:textColor="@android:color/white"
             android:gravity="center"
             android:padding="10dp"
             android:text="The Lighting of the Grand Gotham Christmas Tree"
+            android:textColor="@android:color/white"
             android:textSize="30sp"/>
 
 
