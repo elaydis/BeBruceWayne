@@ -19,7 +19,7 @@
         android:textColor="@android:color/white"
         android:fontFamily="serif"
         android:text="@string/introduction_text"
-        android:textSize="28sp"/>
+        android:textSize="22sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
