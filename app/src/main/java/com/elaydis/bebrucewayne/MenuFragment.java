@@ -14,11 +14,6 @@ import butterknife.OnClick;
 
 public class MenuFragment extends Fragment {
 
-    @Bind(R.id.button_start_game)
-    Button startGameButton;
-
-    @Bind(R.id.button_credits)
-    Button creditsButton;
 
     public MenuFragment() {
     }

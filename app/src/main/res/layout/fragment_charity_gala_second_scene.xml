@@ -2,41 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:background="@drawable/background_fundraiser"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_vertical_margin"
-              android:paddingBottom="@dimen/activity_vertical_margin"
-              android:orientation="vertical">
+              android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
         android:id="@+id/text_description"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:textSize="26sp"
-        android:textColor="@android:color/white"
+        android:layout_margin="4dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:background="@color/black_overlay"
+        android:fontFamily="serif"
         android:text="@string/text_charity_scene_2"
-        android:layout_weight="2"/>
+        android:textColor="@android:color/white"
+        android:textSize="22sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <Button
+        <TextView
             android:id="@+id/button_option_1"
             android:layout_width="0dp"
-            android:layout_margin="4dp"
             android:layout_height="match_parent"
-            android:text="Yell: Boo fucking hoo! Get over it princess!"
-            android:layout_weight="1"/>
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/black_overlay"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Yell: Boo fucking hoo! Get over it princess!"/>
 
-        <Button
+        <TextView
             android:id="@+id/button_option_2"
             android:layout_width="0dp"
-            android:layout_margin="4dp"
             android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/black_overlay"
+            android:fontFamily="serif"
+            android:gravity="center"
             android:text="Crack jokes about how Dent seems like he was the kind of child that you just have to slap every now and then to the people in your vicinity."
-            android:layout_weight="1"/>
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -44,20 +57,28 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <Button
+        <TextView
             android:id="@+id/button_option_3"
             android:layout_width="0dp"
-            android:layout_margin="4dp"
             android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/black_overlay"
+            android:fontFamily="serif"
+            android:gravity="center"
             android:text="That speech was a bit lame, but not bat.. bad. I mean bad."
-            android:layout_weight="1"/>
+            android:textColor="@android:color/white"/>
 
-        <Button
+        <TextView
             android:id="@+id/button_option_4"
             android:layout_width="0dp"
-            android:layout_margin="4dp"
             android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@color/black_overlay"
+            android:fontFamily="serif"
+            android:gravity="center"
             android:text="Applaud and cheer as the speech comes to an end."
-            android:layout_weight="1"/>
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 </LinearLayout>

@@ -2,37 +2,45 @@
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:paddingLeft="@dimen/activity_horizontal_margin"
-              android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_vertical_margin"
-              android:paddingBottom="@dimen/activity_vertical_margin"
               android:background="@drawable/intro_background"
               android:gravity="bottom"
               android:orientation="horizontal"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
               tools:context="com.elaydis.bebrucewayne.MenuFragment">
 
-    <Button
+    <TextView
         android:id="@+id/button_start_game"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="4dp"
         android:layout_weight="1"
+        android:background="@color/black_overlay"
+        android:fontFamily="serif"
+        android:gravity="center"
         android:paddingBottom="15dp"
         android:paddingTop="15dp"
         android:text="@string/start_game"
+        android:textColor="@android:color/white"
         android:textSize="35sp"/>
 
-    <Button
+    <TextView
         android:id="@+id/button_credits"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="4dp"
         android:layout_weight="1"
+        android:background="@color/black_overlay"
+        android:fontFamily="serif"
+        android:gravity="center"
         android:paddingBottom="15dp"
         android:paddingTop="15dp"
         android:text="@string/credits"
+        android:textColor="@android:color/white"
         android:textSize="35sp"/>
 
 </LinearLayout>
