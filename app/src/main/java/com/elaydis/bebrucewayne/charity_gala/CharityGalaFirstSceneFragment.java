@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.elaydis.bebrucewayne.GameOverFragment;
+import com.elaydis.bebrucewayne.endings.BadEndingFragment;
 import com.elaydis.bebrucewayne.MainActivity;
 import com.elaydis.bebrucewayne.R;
 
@@ -75,7 +75,7 @@ public class CharityGalaFirstSceneFragment extends Fragment {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new GameOverFragment())
+                    .replace(R.id.container, new BadEndingFragment())
                     .addToBackStack(CharityGalaFirstSceneFragment.class.getSimpleName())
                     .commit();
         }

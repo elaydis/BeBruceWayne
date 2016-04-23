@@ -13,16 +13,16 @@ import com.elaydis.bebrucewayne.R;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ChristmasTreeFirstSceneFragment extends Fragment {
+public class ChristmasTreeSecondSceneFragment extends Fragment {
 
-    public ChristmasTreeFirstSceneFragment() {
+    public ChristmasTreeSecondSceneFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_christmas_tree_first_scene, container, false);
+        View view = inflater.inflate(R.layout.fragment_christmas_tree_second_scene, container, false);
         ButterKnife.bind(this, view);
 
         return view;
@@ -68,15 +68,15 @@ public class ChristmasTreeFirstSceneFragment extends Fragment {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new ChristmasTreeSecondSceneFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .replace(R.id.container, new ChristmasTreeThirdSceneFragment())
+                    .addToBackStack(ChristmasTreeSecondSceneFragment.class.getSimpleName())
                     .commit();
         } else {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.container, new BadEndingFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .addToBackStack(ChristmasTreeSecondSceneFragment.class.getSimpleName())
                     .commit();
         }
     }

@@ -1,4 +1,4 @@
-package com.elaydis.bebrucewayne.christmas_tree_lighting;
+package com.elaydis.bebrucewayne.charity_gala;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,23 +6,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.elaydis.bebrucewayne.endings.BadEndingFragment;
 import com.elaydis.bebrucewayne.MainActivity;
 import com.elaydis.bebrucewayne.R;
+import com.elaydis.bebrucewayne.endings.BadEndingFragment;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ChristmasTreeFirstSceneFragment extends Fragment {
+public class CharityGalaFourthSceneFragment extends Fragment {
 
-    public ChristmasTreeFirstSceneFragment() {
+    public CharityGalaFourthSceneFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_christmas_tree_first_scene, container, false);
+        View view = inflater.inflate(R.layout.fragment_charity_gala_fourth_scene, container, false);
         ButterKnife.bind(this, view);
 
         return view;
@@ -68,15 +68,15 @@ public class ChristmasTreeFirstSceneFragment extends Fragment {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new ChristmasTreeSecondSceneFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .replace(R.id.container, new CharityGalaFifthSceneFragment())
+                    .addToBackStack(CharityGalaFourthSceneFragment.class.getSimpleName())
                     .commit();
         } else {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.container, new BadEndingFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .addToBackStack(CharityGalaFourthSceneFragment.class.getSimpleName())
                     .commit();
         }
     }

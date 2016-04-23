@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.elaydis.bebrucewayne.GameOverFragment;
+import com.elaydis.bebrucewayne.endings.BadEndingFragment;
 import com.elaydis.bebrucewayne.MainActivity;
 import com.elaydis.bebrucewayne.R;
 
@@ -68,14 +68,14 @@ public class CharityGalaSecondSceneFragment extends Fragment {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new CharityGalaFirstSceneFragment())
+                    .replace(R.id.container, new CharityGalaThirdSceneFragment())
                     .addToBackStack(CharityGalaSecondSceneFragment.class.getSimpleName())
                     .commit();
         } else {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new GameOverFragment())
+                    .replace(R.id.container, new BadEndingFragment())
                     .addToBackStack(CharityGalaSecondSceneFragment.class.getSimpleName())
                     .commit();
         }

@@ -37,7 +37,7 @@
             android:fontFamily="serif"
             android:gravity="center"
             android:textColor="@android:color/white"
-            android:text="Yell: Boo fucking hoo! Get over it princess!"/>
+            android:text="@string/charity_scene_2_option_1"/>
 
         <TextView
             android:id="@+id/button_option_2"
@@ -48,7 +48,7 @@
             android:background="@color/black_overlay"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Crack jokes about how Dent seems like he was the kind of child that you just have to slap every now and then to the people in your vicinity."
+            android:text="@string/charity_scene_2_option_2"
             android:textColor="@android:color/white"/>
     </LinearLayout>
 
@@ -66,7 +66,7 @@
             android:background="@color/black_overlay"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="That speech was a bit lame, but not bat.. bad. I mean bad."
+            android:text="@string/charity_scene_2_option_3"
             android:textColor="@android:color/white"/>
 
         <TextView
@@ -78,7 +78,7 @@
             android:background="@color/black_overlay"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Applaud and cheer as the speech comes to an end."
+            android:text="@string/charity_scene_2_option_4"
             android:textColor="@android:color/white"/>
     </LinearLayout>
 </LinearLayout>

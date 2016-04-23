@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@drawable/background_credits_and_intro"
+              android:background="@drawable/background_ending_neutral"
               android:gravity="center_horizontal"
               android:orientation="vertical"
               android:paddingBottom="@dimen/activity_vertical_margin"
@@ -13,39 +13,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/text_neutral_ending"
+        android:gravity="center_horizontal"
         android:fontFamily="serif"
-        android:text="@string/credits"
         android:textColor="@android:color/white"
         android:textSize="45sp"/>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="serif"
-        android:text="@string/name_matthias"
-        android:textColor="@android:color/white"
-        android:textSize="35sp"/>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:fontFamily="serif"
-        android:text="@string/name_till"
-        android:textColor="@android:color/white"
-        android:textSize="35sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:fontFamily="serif"
-        android:text="@string/name_nadine"
-        android:textColor="@android:color/white"
-        android:textSize="35sp"/>
 
     <TextView
         android:id="@+id/button_back"
@@ -56,7 +29,7 @@
         android:fontFamily="serif"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/back"
+        android:text="@string/play_again"
         android:textColor="@android:color/white"
         android:textSize="30sp"/>
 

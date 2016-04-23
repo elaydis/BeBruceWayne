@@ -6,23 +6,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.elaydis.bebrucewayne.endings.BadEndingFragment;
 import com.elaydis.bebrucewayne.MainActivity;
 import com.elaydis.bebrucewayne.R;
+import com.elaydis.bebrucewayne.endings.BadEndingFragment;
+import com.elaydis.bebrucewayne.endings.GoodEndingFragment;
+import com.elaydis.bebrucewayne.endings.NeutralEndingFragment;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ChristmasTreeFirstSceneFragment extends Fragment {
+public class ChristmasTreeFifthSceneFragment extends Fragment {
 
-    public ChristmasTreeFirstSceneFragment() {
+    public ChristmasTreeFifthSceneFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_christmas_tree_first_scene, container, false);
+        View view = inflater.inflate(R.layout.fragment_christmas_tree_fifth_scene, container, false);
         ButterKnife.bind(this, view);
 
         return view;
@@ -64,19 +66,26 @@ public class ChristmasTreeFirstSceneFragment extends Fragment {
     private void checkSuspicionLevel() {
         int suspicionLevel = ((MainActivity) getActivity()).getSuspicionLevel();
 
-        if (suspicionLevel < 999) {
+        if (suspicionLevel >= 999) {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new ChristmasTreeSecondSceneFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .replace(R.id.container, new BadEndingFragment())
+                    .addToBackStack(ChristmasTreeFifthSceneFragment.class.getSimpleName())
+                    .commit();
+        } else if (suspicionLevel >= 500) {
+            getActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.container, new NeutralEndingFragment())
+                    .addToBackStack(ChristmasTreeFifthSceneFragment.class.getSimpleName())
                     .commit();
         } else {
             getActivity()
                     .getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.container, new BadEndingFragment())
-                    .addToBackStack(ChristmasTreeFirstSceneFragment.class.getSimpleName())
+                    .replace(R.id.container, new GoodEndingFragment())
+                    .addToBackStack(ChristmasTreeFifthSceneFragment.class.getSimpleName())
                     .commit();
         }
     }
